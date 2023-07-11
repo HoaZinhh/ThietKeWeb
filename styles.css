@@ -22,7 +22,7 @@ section nav{
     align-items: center;
     justify-content: space-around;
     box-shadow: 0 0 8px rgba(0,0,0,6);
-    background-color: white;
+    background-color: wheat;
     position: fixed;
     top: 0;
     left: 0;
@@ -57,6 +57,14 @@ section nav ul li a:hover{
 color: green;
 }
 
+body{
+    background-image: url(image/BG3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
 section nav .icons i{
     margin: 0 4px;
     cursor: pointer;
@@ -76,36 +84,46 @@ section .main .main_content{
 
  section .main .main_content .main_text h1{
     margin: 100px auto;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 40px;
     font-family: pyxidium quick;
     color: green;
+    
 }
+
+section .main .main_content .main_text #slider{
+    width: 500px;
+    position: relative;
+    left: 250px;
+    top: -230px;
+}
+
 
 /*section .main .main_content .main_text h1 span{
     font-size: 70px;
     background: linear-gradient(to right, #c72092,#6c14d0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+}*/
 
 section .main .main_content .main_text p {
-    width: 580px;
-    color: white;
+    width: 500px;
+    color: black;
     text-align: justify;
     line-height: 25px;
     position: relative;
-    top: 85px;
-    left: 5%;
-} */
+    top: 10px;
+    left: -300px;
+} 
 
 
-section .main .main_content .main_image img{
+
+/*section .main .main_content .main_image img{
     width: 580px;
     position: relative;
     left: -10px;
     top: 75px;
-}
+} */
 
 section .main .social_icon{
     position: absolute;
