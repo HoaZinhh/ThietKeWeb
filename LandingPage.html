@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/image/favicon.png">
+    <title>Nông sản Việt</title>
+
+            <!-- Css Files -->
+    <link rel="stylesheet" href="css/LandingPage.css" /> 
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+          <!-- JavaScript Files -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="image/favicon.png" alt="Logo" />
+              <h3>Nông sản Việt</h3>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Thông tin</a></li>
+                <li><a href="#">Nhà cung cấp</a></li>
+                <li><a href="Sign_in.html" class="btn">Đăng Nhập</a></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container_main" style="background-image: url(image/BG3.jpg);">
+            <div class="left">
+              <div class="big-title">
+                <h1>Cổng thông tin uy tín</h1>
+                <h1>Các Nhà cung cấp hàng đầu </h1>
+              </div>
+              <p class="text">
+                Các nhà cung cấp nông sản uy tín trên website được lựa chọn kỹ càng,
+                 đảm bảo sự đáng tin cậy và chất lượng của sản phẩm.
+              </p>
+              
+              <p class="text">
+                Mỗi nhà cung cấp được giới thiệu với thông tin đầy đủ về vị trí, quy mô sản xuất, các sản
+                phẩm chính, cùng với các chứng chỉ chất lượng, chứng nhận hữu cơ và chứng chỉ xuất khẩu nếu có. 
+              </p>
+              
+              <p class="text">
+                Điều này giúp người dùng có thể dễ dàng tìm ra những
+                nhà cung cấp nông sản đáng tin cậy và phù hợp với nhu cầu của mình.
+              </p>
+              <div class="cta">
+                <a href="#" class="btn">Bắt đầu tìm hiểu</a>
+              </div>
+            </div>
+
+            <div class="right">
+                <script>
+                    $(document).ready(function(){
+                        $('.owl-carousel').owlCarousel({
+                            loop:true,
+                            margin:10,
+                            nav:true,
+                            responsive:{
+                                0:{
+                                    items:1
+                                }                  
+                            }
+                        })
+                    });
+                </script>
+                <style>
+                </style>
+                <div id="slider">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="">
+                                <img src="image/CR1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                                <img src="image/CR3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                                <img src="image/CR2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                                <img src="image/CR4.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+        <!-- JavaScript Files -->
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <script src="JS/LandingPage.js"></script>
+
+  <footer class="footer">
+    <div class="container_footer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Nông Sản Việt</h4>
+          <ul>
+            <li><a href="#">Về chúng tôi</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Chính sách</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hỗ trợ</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Các nhà cung cấp</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Theo dõi chúng tôi</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+</html>
