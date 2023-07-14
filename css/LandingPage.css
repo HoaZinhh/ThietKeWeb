@@ -282,7 +282,7 @@ header .container {
   width: 550px;
   position: relative;
   left: 60px;
-  top: 50px;
+  top: 70px;
 }
 
 .copy {
@@ -302,7 +302,7 @@ header .container {
   }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 850px) {
   .hamburger-menu {
     display: flex;
   }
@@ -378,7 +378,7 @@ header .container {
 
   .text {
     font-size: 0.95rem;
-    margin: 1.4rem 0 1.5rem;
+    margin: 1.2rem 0 1rem;
   }
 
   .person {
@@ -396,9 +396,20 @@ header .container {
   }
 }
 
-@media screen and (max-width: 470px) {
+/* responsive */
+
+@media screen and (max-width: 1400px) {
+
   .container {
     padding: 0 1.5rem;
+  }
+
+  .container_main{
+    padding: 0 1.5rem;
+  }
+
+  .showcase-area{
+    scale: 75%;
   }
 
   .big-title {
@@ -413,7 +424,6 @@ header .container {
     font-size: 0.8rem;
   }
 }
-
 
 /* footer */
 
@@ -488,15 +498,10 @@ ul{
 	background-color: #ffffff;
 }
 
-/*responsive*/
-@media(max-width: 767px){
+/* responsive */
+@media screen and (max-width: 1400px){
   .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
+    width: 20%;
+    margin-bottom: -25px;
 }
 }
