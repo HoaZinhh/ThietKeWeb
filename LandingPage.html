@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="css/LandingPage.css" /> 
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
-          <!-- JavaScript Files -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          
   </head>
   <body>
     <main>
@@ -30,7 +29,7 @@
               <ul>
                 <li><a href="#">Trang chủ</a></li>
                 <li><a href="#">Thông tin</a></li>
-                <li><a href="#">Nhà cung cấp</a></li>
+                <li><a href="#nhacungcap">Nhà cung cấp</a></li>
                 <li><a href="Sign_in.html" class="btn">Đăng Nhập</a></li>
               </ul>
             </div>
@@ -59,48 +58,32 @@
                 Mỗi nhà cung cấp được giới thiệu với thông tin đầy đủ về vị trí, quy mô sản xuất, các sản
                 phẩm chính, cùng với các chứng chỉ chất lượng, chứng nhận hữu cơ và chứng chỉ xuất khẩu nếu có. 
               </p>
-              <div class="cta">
+              <div class="cta" style="padding-left: 200px;">
                 <a href="#" class="btn">Bắt đầu tìm hiểu</a>
               </div>
             </div>
 
             <div class="right">
-                <script>
-                    $(document).ready(function(){
-                        $('.owl-carousel').owlCarousel({
-                            loop:true,
-                            margin:10,
-                            nav:true,
-                            responsive:{
-                                0:{
-                                    items:1
-                                }                  
-                            }
-                        })
-                    });
-                </script>
-                <style>
-                </style>
                 <div id="slider">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <a href="">
-                                <img src="image/CR1.jpg" alt="">
+                                <img src="image/Carousel/CR1.jpg" alt="">
                             </a>
                         </div>
                         <div class="item">
                             <a href="">
-                                <img src="image/CR3.jpg" alt="">
+                                <img src="image/Carousel/CR3.jpg" alt="">
                             </a>
                         </div>
                         <div class="item">
                             <a href="">
-                                <img src="image/CR2.jpg" alt="">
+                                <img src="image/Carousel/CR2.jpg" alt="">
                             </a>
                         </div>
                         <div class="item">
                             <a href="">
-                                <img src="image/CR4.jpg" alt="">
+                                <img src="image/Carousel/CR4.jpg" alt="">
                             </a>
                         </div>
                     </div>
@@ -109,6 +92,90 @@
           </div>
         </div>
 
+                      <!-- Feature -->
+
+        <div class="row justify-content-center mt-4" style="margin: 100px!important;">
+          <div class="item features-image сol-12 col-md-6 col-lg-4">
+              <div class="item-wrapper">
+                  <div class="item-img">
+                      <img src="image/Feature/feature1.png" alt="">
+                  </div>
+                  <div class="item-content">
+                      <h6 class="item-subtitle mbr-fonts-style mt-1 display-4">
+                          <strong>Cải thiện</strong>
+                      </h6>
+                      <p class="mbr-text mbr-fonts-style mt-3 display-4">Hỗ trợ cải tạo đất đai,cung cấp trang thiết bị hiện đại hỗ trợ giúp nâng cao chất lượng đất,tăng năng suất nông sản.</p>
+                  </div>        
+              </div>
+          </div>
+          <div class="item features-image сol-12 col-md-6 col-lg-4">
+              <div class="item-wrapper">
+                  <div class="item-img">
+                      <img src="image/Feature/feature2.png" alt="">
+                  </div>
+                  <div class="item-content">
+                      <h6 class="item-subtitle mbr-fonts-style mt-1 display-4">
+                          <strong>Hỗ trợ tài chính</strong>
+                      </h6>
+                      <p class="mbr-text mbr-fonts-style mt-3 display-4">Hỗ trợ tài chính giúp nông dân đầu tư vào công nghệ và nguồn lực cần thiết để phát triển năng suất và bền vững hóa sản xuất nông nghiệp.</p>
+                  </div>
+                  
+              </div>
+          </div>
+          <div class="item features-image сol-12 col-md-6 col-lg-4">
+              <div class="item-wrapper">
+                  <div class="item-img">
+                      <img src="image/Feature/feature3.png" alt="">
+                  </div>
+                  <div class="item-content">
+                      <h6 class="item-subtitle mbr-fonts-style mt-1 display-4">
+                          <strong>Giáo dục</strong>
+                      </h6>
+                      <p class="mbr-text mbr-fonts-style mt-3 display-4">Giáo dục kiến thức nông nghiệp giúp nâng cao kỹ năng và hiểu biết của nông dân, giảm thiểu rủi ro và tối ưu hóa quy trình canh tác.<br></p>
+                  </div>
+                  
+              </div>
+          </div>
+        </div>
+
+                  <!-- Suplier -->
+
+        <div class="images-container container" id="nhacungcap">
+          <div class="mbr-section-head">
+              <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                  <strong>TOP 8 NHÀ CUNG CẤP </strong>
+              </h3>
+          </div>
+        
+          <div class="row justify-content-center mt-4">
+              <div class="col-md-3 card">
+                  <img src="image/SUP/sup1.png" alt="Sup_Logo">
+              </div>
+              <div class="col-md-3 card">
+                  <img src="image/SUP/sup2.png" alt="Sup_Logo">
+              </div>
+              <div class="col-md-3 card">
+                  <img src="image/SUP/sup3.png" alt="Sup_Logo" style="padding-top: 40px;">
+              </div>
+              <div class="col-md-3 card">
+                  <img src="image/SUP/sup4.png" alt="Sup_Logo" style="padding-top: 40px;">
+              </div>
+              <div class="col-md-3 card">
+                  <img src="image/SUP/sup5.png" alt="Sup_Logo">
+              </div>
+              <div class="col-md-3 card">
+                  <img src="image/SUP/sup6.png" alt="Sup_Logo" style="padding-top: 40px;">
+              </div>
+              <div class="col-md-3 card">
+                  <img src="image/SUP/sup7.png" alt="Sup_Logo" style="padding-top: 40px;">
+              </div>
+              <div class="col-md-3 card">
+                  <img src="image/SUP/sup8.png" alt="Sup_Logo" style="padding-top: 20px;">
+              </div>
+          </div>
+        </div>
+
+        <!-- Dark-light-btn -->
         <div class="bottom-area">
           <div class="container">
             <button class="toggle-btn">
@@ -117,17 +184,14 @@
             </button>
           </div>
         </div>
-      </div>
     </main>
   </body>
 
-        <!-- JavaScript Files -->
-  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-  <script src="JS/LandingPage.js"></script>
+        <!-- footer -->
 
   <footer class="footer">
     <div class="container_footer">
-      <div class="row">
+      <div class="footer-row">
         <div class="footer-col">
           <h4>Nông Sản Việt</h4>
           <ul>
@@ -155,3 +219,11 @@
     </div>
  </footer>
 </html>
+
+
+<!-- JavaScript Files -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+<script src="JS/LandingPage.js"></script>

@@ -26,7 +26,7 @@ function login(e){
     }
     else if(username = data.username && email == data.email && password == data.password){
         alert(message = "Đăng nhập thành công")
-        window.location.href = "index.html"
+        window.location.href = "LandingPage.html"
     } 
     else{
         alert(message = "Đăng nhập thất bại")

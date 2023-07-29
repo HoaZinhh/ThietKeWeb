@@ -15,8 +15,30 @@ declare();
 
 let dark = false;
 
+ function initCarousel() {
+  $(document).ready(function(){
+
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          autoplay:true,
+          autoplayTimeout:1500,
+          responsive:{
+              0:{
+                  items:1
+              }                  
+          }
+      })
+  });
+ }
+
+initCarousel();
+
 function toggleAnimation() {
   // Clone the wrapper
+  initCarousel();
+  $('.owl-carousel').owlCarousel('destroy');
   dark = !dark;
   let clone = big_wrapper.cloneNode(true);
   if (dark) {
