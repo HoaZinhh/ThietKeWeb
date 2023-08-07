@@ -35,6 +35,20 @@ let dark = false;
 
 initCarousel();
 
+function totop(){
+  const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
+}
+
+totop();
+
 function toggleAnimation() {
   // Clone the wrapper
   initCarousel();
@@ -61,6 +75,7 @@ function toggleAnimation() {
     declare();
     events();
   });
+  
 }
 
 function events() {
@@ -68,6 +83,7 @@ function events() {
   hamburger_menu.addEventListener("click", () => {
     big_wrapper.classList.toggle("active");
   });
+  totop();
 }
 
 events();
