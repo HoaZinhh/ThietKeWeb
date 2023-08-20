@@ -76,6 +76,13 @@ a {
   z-index: 10;
 }
 
+#slider{
+  width: 550px;
+  position: relative;
+  left: 60px;
+  top: 10px;
+}
+
 
 header {
   position: relative;
@@ -308,13 +315,6 @@ header .container {
   opacity: 0.1;
 }
 
-#slider{
-  width: 550px;
-  position: relative;
-  left: 60px;
-  top: 10px;
-}
-
 .copy {
   position: absolute;
   top: 0;
@@ -322,6 +322,7 @@ header .container {
   z-index: 100;
   animation: appear 1s 1 both;
 }
+
 
 @media screen and (max-width: 850px) {
   .hamburger-menu {
@@ -442,6 +443,23 @@ h3 strong{
   justify-content: center;
   display: flex
 }
+
+/*about us*/
+.container .image-wrapper{
+  position: relative;
+  max-width: 81rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+  z-index: 10;
+}
+
+.container .text-box{
+  width: 550px;
+  position: relative;
+  left: 650px;
+  top: -280px;
+} 
 
 /* footer */
 
